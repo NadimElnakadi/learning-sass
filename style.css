@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  color: white;
+  border: solid red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 60px;
+  margin: auto;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+p:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.4) translate(50%);
+}/*# sourceMappingURL=style.css.map */
